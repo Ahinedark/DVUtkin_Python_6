@@ -12,7 +12,7 @@
 pip install -r requirements.txt
 
 ## Использование
-Основной файл с заданием: src/DVUtkin_Python_6/main.py.
+Основной файл с заданием: src/DVUtkin_Python_6/main.py.  
 Пример запуска: python file_report.py --path "C:\Users\Public" --report "report.xlsx"
 
 ## Команда проекта
