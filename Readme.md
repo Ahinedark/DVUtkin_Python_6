@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 ## Использование
 Основной файл с заданием: src/DVUtkin_Python_6/folder_analyze.py.  
-Пример запуска: python folder_analyze.py --path "E:\Musor\dante" --report "report.csv"
+Пример запуска: python src\DVUtkin_Python_6\folder_analyze.py --path "E:\Musor\dante" --report "report.csv"
 
 Параметры:
     Путь к анализируемой папке --path (обязательный);

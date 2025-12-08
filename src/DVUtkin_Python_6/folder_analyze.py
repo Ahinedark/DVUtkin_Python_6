@@ -309,6 +309,7 @@ def main():
             print('Укажите корректный формат отчёта (".csv", ".json", ".docx", ".xlsx", ".pdf") и попробуйте ещё раз.')
             return
 
+    print('Отчёт сформирован:', str(report_path))
 
 if __name__ == '__main__':
     main()
