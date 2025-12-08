@@ -14,11 +14,12 @@ pip install -r requirements.txt
 ## Использование
 Основной файл с заданием: src/DVUtkin_Python_6/folder_analyze.py.  
 Пример запуска: python src\DVUtkin_Python_6\folder_analyze.py --path "E:\Musor\dante" --report "report.csv"
+Возможные форматы отчёта: docx, xlsx, pdf, csv, json.
 
 Параметры:
 * Путь к анализируемой папке --path (обязательный);  
 * Путь к отчету --report (необязательный, default = "report.json").  
-Возможные форматы отчёта: docx, xlsx, pdf, csv, json.
+
 
 ## Команда проекта
 - [Дмитрий Уткин](https://t.me/Mdvend)
