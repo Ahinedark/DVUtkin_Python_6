@@ -1,0 +1,9 @@
+charset-normalizer==3.4.4
+et_xmlfile==2.0.0
+lxml==6.0.2
+openpyxl==3.1.5
+pillow==12.0.0
+python-docx==1.2.0
+reportlab==4.4.5
+typing_extensions==4.15.0
+ruff==0.12.12

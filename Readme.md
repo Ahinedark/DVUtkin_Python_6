@@ -1,7 +1,7 @@
 # Домашнее задание к лекции 6 "Контекстные менеджеры". Уткин Д.В.
 
-Скрипт, генерирующий отчет о структуре файлов и папок на жестком диске.  
-Возможные форматы отчёта: docx, xlsx, pdf, csv, json.
+Скрипт, генерирующий отчет о структуре файлов и папок на жестком диске.
+
 
 ## Содержание
 - [Установка зависимостей](#Установка-зависимостей)
@@ -12,8 +12,13 @@
 pip install -r requirements.txt
 
 ## Использование
-Основной файл с заданием: src/DVUtkin_Python_6/main.py.  
-Пример запуска: python file_report.py --path "C:\Users\Public" --report "report.xlsx"
+Основной файл с заданием: src/DVUtkin_Python_6/folder_analyze.py.  
+Пример запуска: python folder_analyze.py --path "E:\Musor\dante" --report "report.csv"
+
+Параметры:
+    Путь к анализируемой папке --path (обязательный);
+    Путь к отчету --report (необязательный, default = "report.json").
+Возможные форматы отчёта: docx, xlsx, pdf, csv, json.
 
 ## Команда проекта
 - [Дмитрий Уткин](https://t.me/Mdvend)
